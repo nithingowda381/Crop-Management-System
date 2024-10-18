@@ -1,7 +1,8 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-router-dom';
-import { Sprout, Bug, Beaker } from 'lucide-react';
+import { Sprout, Bug, Beaker } from 'lucide-react';  // Replace Flask with an available icon like Beaker
+
 
 const Home: React.FC = () => {
   const fadeIn = useSpring({
