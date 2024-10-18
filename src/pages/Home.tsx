@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-router-dom';
-import { Sprout, Bug, Flask } from 'lucide-react';
+import { Sprout, Bug, Beaker } from 'lucide-react';
 
 const Home: React.FC = () => {
   const fadeIn = useSpring({
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           link="/disease-detection"
         />
         <FeatureCard
-          icon={<Flask className="w-12 h-12 text-blue-600" />}
+          icon={<Beaker className="w-12 h-12 text-blue-600" />}
           title="Soil Analysis"
           description="Analyze soil composition and health"
           link="/soil-analysis"
